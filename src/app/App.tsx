@@ -13,15 +13,12 @@ const App: React.FC = () => {
     const [modalShow, setModalShow] = useState(false);
     const [open, setOpen] = useState(false);
 
-    const handleClick = () => {
-        setOpen(true);
-    };
     return (
         <Container fluid className="p-0">
             <div className="header p-5">
                 <h1 className="header m-5">Con AquilesCoin, conseguirás más Bitcoins gastando el mismo dinero</h1>
                 <div className="d-flex justify-content-center align-items-center">
-                    <Button className="m-2 mt-5" size="lg" variant="success" onClick={() => handleClick()}>
+                    <Button className="m-2 mt-5" size="lg" variant="success" onClick={() => setOpen(true)}>
                         ¡Vamos allá!
                     </Button>{' '}
                     <p></p>
