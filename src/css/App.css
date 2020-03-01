@@ -1,0 +1,14 @@
+.img-bg {
+  background-image: url('/img/hero/overview-bg.svg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.header {
+  text-align: center;
+}
+
+.icon-size-400{
+  height: 4rem;
+  width: 4rem;
+}
